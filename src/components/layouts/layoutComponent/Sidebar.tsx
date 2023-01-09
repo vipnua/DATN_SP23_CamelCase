@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 type Props = {}
 
@@ -14,7 +15,9 @@ const Sidebar = (props: Props) => {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav"> Bảng Tin</a>
+                        <NavLink to={'/'}>
+                            <a className="nav"> Bảng Tin</a>
+                        </NavLink>
                     </li>
                     <li className="nav-item" style={{ borderBottom: '1px solid #f3f3f3' }}>
                         <a className="nav">Toppy AI - Đề xuất</a>
@@ -23,7 +26,7 @@ const Sidebar = (props: Props) => {
                         <a className="nav">Chiến dịch tuyển dụng</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav">Tin tuyển dụng</a>
+                        <a className="nav">Quản lý bài viết</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav">Quản lý CV</a>
