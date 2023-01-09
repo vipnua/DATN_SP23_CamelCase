@@ -16,7 +16,7 @@ const Sidebar = (props: Props) => {
                     </li>
                     <li className="nav-item">
                         <NavLink to={'/'}>
-                            <a className=""> Bảng Tin</a>
+                            Bảng Tin
                         </NavLink>
                     </li>
                     <li className="nav-item" style={{ borderBottom: '1px solid #f3f3f3' }}>
