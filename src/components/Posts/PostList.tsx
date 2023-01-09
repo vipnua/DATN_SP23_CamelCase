@@ -88,6 +88,7 @@ const PostList = (props: Props) => {
     ];
     return (
         <>
+            <h2>Quan ly bai viet</h2>
             <Table columns={columns} dataSource={data} />
         </>
     )
