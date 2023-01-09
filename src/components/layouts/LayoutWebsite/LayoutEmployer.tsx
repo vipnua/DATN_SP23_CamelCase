@@ -14,7 +14,7 @@ const LayoutEmployer = (props: Props) => {
                 <Sidebar />
                 {/* Content */}
                 <div className="col-sm-6 col-xl-8">
-                    <div className="m-5">
+                    <div className="mt-5">
                         <Outlet />
                     </div>
 

@@ -26,7 +26,9 @@ const Sidebar = (props: Props) => {
                         <a className="nav">Chiến dịch tuyển dụng</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav">Quản lý bài viết</a>
+                        <NavLink to={'/posts'}>
+                            <a className="nav">Quản lý bài viết</a>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
                         <a className="nav">Quản lý CV</a>
